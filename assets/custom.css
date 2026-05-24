@@ -1,0 +1,621 @@
+/* Import modern, premium Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* CleanMyMac-Inspired Premium Design System Tokens */
+:root {
+    --bg-dark: #f4f5f9; /* Crisp light grey-blue page background */
+    --card-bg: #ffffff; /* Crisp solid white cards */
+    --card-border: #e5e7eb; /* Subtle light gray borders */
+    --primary: #352e8c; /* Rich Deep Indigo/Violet */
+    --primary-glow: rgba(53, 46, 140, 0.08);
+    --secondary: #ff9f1c; /* Warm Gold/Orange */
+    --accent-pink: #ff5e7e; /* Soft Crimson/Pink */
+    --accent-blue: #5ac8fa; /* Sky Cyan Blue */
+    --success: #10b981; /* Emerald Growth */
+    --warning: #f59e0b; /* Amber */
+    --error: #ef4444; /* Rose Red */
+    --text-main: #1e1b4b; /* Deep Indigo-Black for ultimate legibility */
+    --text-muted: #4a467f; /* Secondary Muted Indigo-Gray */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+/* Global Reset and Refinements - Outermost Streamlit Containers Overrides */
+div[data-testid="stAppViewContainer"], [data-testid="stAppViewContainer"], .main {
+    background-color: var(--bg-dark) !important;
+}
+
+header[data-testid="stHeader"], [data-testid="stHeader"] {
+    background-color: transparent !important;
+}
+
+.main .block-container {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-color: var(--bg-dark);
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading) !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.015em;
+    color: var(--text-main) !important;
+}
+
+/* Premium Minimalist CleanMyMac Cards */
+.glass-card, div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: var(--card-bg) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: 20px !important;
+    padding: 24px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 10px 30px rgba(53, 46, 140, 0.03) !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.glass-card:hover, div[data-testid="stVerticalBlockBorderWrapper"]:hover {
+    border-color: rgba(53, 46, 140, 0.12) !important;
+    box-shadow: 0 16px 40px rgba(53, 46, 140, 0.06) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Replicating the warm orange gradient top banner */
+.orange-banner {
+    background: linear-gradient(135deg, #ff9f1c, #f59e0b) !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    padding: 24px !important;
+    border: none !important;
+    box-shadow: 0 8px 24px rgba(255, 159, 28, 0.15) !important;
+}
+
+/* Premium KPI metrics cards with color tags */
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 20px 24px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(53, 46, 140, 0.02);
+}
+
+.kpi-card:hover {
+    border-color: rgba(53, 46, 140, 0.1);
+    transform: translateY(-1px);
+}
+
+.kpi-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--accent-pink);
+}
+
+.kpi-card.success::before { background: var(--success); }
+.kpi-card.warning::before { background: var(--warning); }
+.kpi-card.error::before { background: var(--error); }
+.kpi-card.orange::before { background: var(--secondary); }
+.kpi-card.blue::before { background: var(--accent-blue); }
+.kpi-card.purple::before { background: var(--primary); }
+
+.kpi-val {
+    font-size: 1.85rem;
+    font-weight: 700;
+    font-family: var(--font-heading);
+    margin: 4px 0 2px 0;
+    color: var(--text-main);
+    letter-spacing: -0.01em;
+}
+
+.kpi-lbl {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
+.kpi-sub {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.trend-up { color: var(--success); font-weight: 600; }
+.trend-down { color: var(--error); font-weight: 600; }
+
+/* Custom speed gauge container */
+.gauge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+}
+
+/* Deep Indigo Sidebar background -> Clean Light Cool Slate */
+[data-testid="stSidebar"] {
+    background-color: #f1f5f9 !important;
+    border-right: 1px solid var(--card-border) !important;
+}
+
+[data-testid="stSidebar"] .block-container {
+    background-color: transparent !important;
+}
+
+/* Unique Curvaceous active sidebar navigation cutout style */
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    color: var(--text-muted); /* Dark text for light mode */
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.nav-item:hover {
+    background: rgba(53, 46, 140, 0.05);
+    color: var(--primary);
+}
+
+.nav-item.active {
+    background: var(--bg-dark) !important; /* Matches main page background */
+    color: var(--primary) !important;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(53, 46, 140, 0.05);
+    border-radius: 20px 0 0 20px !important; /* Curved cutout transition */
+    margin-right: -20px !important; /* Merges smoothly with page body */
+    position: relative;
+}
+
+/* Light Mode Health Score Ring */
+.health-score-container {
+    text-align: center;
+    padding: 20px;
+    background: radial-gradient(circle at center, rgba(53, 46, 140, 0.04), transparent);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(53, 46, 140, 0.15);
+}
+
+.health-val {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--text-main);
+    font-family: var(--font-heading);
+    line-height: 1;
+}
+
+/* Clean Custom Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Monospace schema logs */
+.sql-schema-tree {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    background: #ffffff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid var(--card-border);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.01);
+}
+
+/* Sleek Anomaly Box */
+.anomaly-alert {
+    padding: 14px 18px;
+    background: rgba(239, 68, 68, 0.04);
+    border-left: 4px solid var(--error);
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.anomaly-title {
+    font-weight: 600;
+    color: var(--error);
+    margin-bottom: 2px;
+    font-size: 0.95rem;
+}
+
+/* Micro voice waves */
+.voice-wave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    height: 24px;
+    margin: 8px 0;
+}
+
+.voice-bar {
+    width: 2.5px;
+    height: 6px;
+    background-color: var(--primary);
+    border-radius: 1px;
+    animation: bounce 1.2s ease-in-out infinite;
+}
+
+.voice-bar:nth-child(2) { animation-delay: 0.15s; }
+.voice-bar:nth-child(3) { animation-delay: 0.3s; }
+.voice-bar:nth-child(4) { animation-delay: 0.45s; }
+.voice-bar:nth-child(5) { animation-delay: 0.6s; }
+
+@keyframes bounce {
+    0%, 100% { height: 6px; }
+    50% { height: 20px; }
+}
+
+/* Clean, Light Mode Login Card */
+.login-card {
+    border: 1px solid var(--card-border);
+    background: #ffffff;
+    box-shadow: 0 15px 40px rgba(53, 46, 140, 0.05);
+    border-radius: 16px;
+}
+
+/* Force Streamlit widgets text colors for light mode readability */
+p, label, span, .stMarkdown {
+    color: var(--text-main) !important;
+}
+
+.stMarkdown p, .stMarkdown span {
+    color: var(--text-muted) !important;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    color: var(--text-main) !important;
+}
+
+/* Sidebar custom styles overriding inline colors */
+[data-testid="stSidebar"] div[style*="background: rgba"] {
+    background-color: #ffffff !important;
+    border-color: var(--card-border) !important;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(53, 46, 140, 0.02) !important;
+}
+[data-testid="stSidebar"] div[style*="background: rgba"] strong {
+    color: var(--text-main) !important;
+}
+[data-testid="stSidebar"] div[style*="background: rgba"] span[style*="color:#8a99ad"] {
+    color: var(--text-muted) !important;
+}
+[data-testid="stSidebar"] div[style*="background: rgba"] span[style*="color: #00d2ff"] {
+    background-color: rgba(53, 46, 140, 0.08) !important;
+    color: var(--primary) !important;
+}
+[data-testid="stSidebar"] h2 {
+    color: var(--primary) !important;
+}
+
+/* ============================================================
+   DARK INPUT FIELDS — Applied globally to all Streamlit widgets
+   ============================================================ */
+
+/* Base container for text, number, password inputs */
+div[data-baseweb="input"],
+div[data-baseweb="textarea"],
+div[data-baseweb="base-input"] {
+    background-color: #1e1b4b !important;
+    border: 1.5px solid #352e8c !important;
+    border-radius: 12px !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+/* Actual text inside input */
+div[data-baseweb="input"] input,
+div[data-baseweb="textarea"] textarea,
+div[data-baseweb="base-input"] input {
+    background-color: #1e1b4b !important;
+    color: #e2e8f0 !important;
+    font-size: 0.95rem !important;
+    font-family: var(--font-body) !important;
+    caret-color: #5ac8fa !important;
+}
+
+/* Placeholder text */
+div[data-baseweb="input"] input::placeholder,
+div[data-baseweb="textarea"] textarea::placeholder {
+    color: #6b7db3 !important;
+    opacity: 1 !important;
+}
+
+/* Focus state — glowing indigo border */
+div[data-baseweb="input"]:focus-within,
+div[data-baseweb="textarea"]:focus-within {
+    background-color: #16134a !important;
+    border-color: #5ac8fa !important;
+    box-shadow: 0 0 0 3px rgba(90, 200, 250, 0.15) !important;
+}
+
+/* Selectbox / Dropdown container */
+div[data-baseweb="select"] > div,
+div[data-baseweb="select"] {
+    background-color: #1e1b4b !important;
+    border: 1.5px solid #352e8c !important;
+    border-radius: 12px !important;
+    color: #e2e8f0 !important;
+}
+
+/* Selected value text inside selectbox */
+div[data-baseweb="select"] span,
+div[data-baseweb="select"] div[class*="ValueContainer"] span,
+div[data-baseweb="select"] div[class*="singleValue"] {
+    color: #e2e8f0 !important;
+}
+
+/* Dropdown arrow icon */
+div[data-baseweb="select"] svg {
+    fill: #6b7db3 !important;
+}
+
+/* Selectbox focus */
+div[data-baseweb="select"]:focus-within > div {
+    border-color: #5ac8fa !important;
+    box-shadow: 0 0 0 3px rgba(90, 200, 250, 0.15) !important;
+}
+
+/* Dropdown listbox (options panel) */
+ul[data-baseweb="menu"],
+div[role="listbox"],
+div[data-baseweb="popover"] {
+    background-color: #1e1b4b !important;
+    border: 1px solid #352e8c !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 24px rgba(10, 8, 40, 0.4) !important;
+}
+
+/* Individual option items */
+ul[data-baseweb="menu"] li,
+div[role="option"] {
+    background-color: #1e1b4b !important;
+    color: #e2e8f0 !important;
+    font-family: var(--font-body) !important;
+}
+
+/* Hovered option */
+ul[data-baseweb="menu"] li:hover,
+div[role="option"]:hover {
+    background-color: #2d2a6e !important;
+    color: #ffffff !important;
+}
+
+/* Number input spinners */
+div[data-testid="stNumberInput"] div[data-baseweb="input"] {
+    background-color: #1e1b4b !important;
+    border-color: #352e8c !important;
+}
+div[data-testid="stNumberInput"] button {
+    background-color: #2d2a6e !important;
+    color: #e2e8f0 !important;
+    border-color: #352e8c !important;
+}
+div[data-testid="stNumberInput"] button:hover {
+    background-color: #352e8c !important;
+    color: #ffffff !important;
+}
+
+/* Multiselect tags */
+div[data-baseweb="tag"] {
+    background-color: #352e8c !important;
+    color: #e2e8f0 !important;
+    border-radius: 8px !important;
+}
+div[data-baseweb="tag"] span {
+    color: #e2e8f0 !important;
+}
+
+/* Multiselect container */
+div[data-testid="stMultiSelect"] div[data-baseweb="select"] > div {
+    background-color: #1e1b4b !important;
+    border-color: #352e8c !important;
+    border-radius: 12px !important;
+    min-height: 42px !important;
+}
+
+/* Date input */
+div[data-testid="stDateInput"] div[data-baseweb="input"] {
+    background-color: #1e1b4b !important;
+    border-color: #352e8c !important;
+}
+div[data-testid="stDateInput"] input {
+    color: #e2e8f0 !important;
+    background-color: #1e1b4b !important;
+}
+
+/* Textarea (for chat inputs, text_area) */
+div[data-testid="stChatInput"] textarea,
+textarea {
+    background-color: #1e1b4b !important;
+    color: #e2e8f0 !important;
+    border: 1.5px solid #352e8c !important;
+    border-radius: 12px !important;
+    caret-color: #5ac8fa !important;
+}
+textarea::placeholder {
+    color: #6b7db3 !important;
+}
+
+/* Slider track & thumb — keep it branded */
+div[data-testid="stSlider"] div[data-baseweb="slider"] div[role="slider"] {
+    background-color: #352e8c !important;
+    border-color: #5ac8fa !important;
+}
+
+/* Widget labels above inputs */
+div[data-testid="stTextInput"] label,
+div[data-testid="stNumberInput"] label,
+div[data-testid="stSelectbox"] label,
+div[data-testid="stMultiSelect"] label,
+div[data-testid="stTextArea"] label,
+div[data-testid="stDateInput"] label,
+div[data-testid="stSlider"] label {
+    color: #4a467f !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+}
+
+
+
+/* Loading Skeletons */
+.skeleton {
+    background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    border-radius: 8px;
+    height: 16px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Floating Action Button (FAB) */
+.fab-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    box-shadow: 0 8px 24px rgba(53, 46, 140, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.fab-button:hover {
+    transform: scale(1.1) rotate(90deg);
+    box-shadow: 0 12px 32px rgba(53, 46, 140, 0.3);
+}
+
+/* GLOBAL BUTTON STYLING - Forces light background and dark text for all buttons globally */
+button, [role="button"], div[data-testid="stButton"] button, div[data-testid="stSidebar"] button {
+    background-color: #ffffff !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--card-border) !important;
+    border-radius: 10px !important;
+    padding: 8px 16px !important;
+    font-weight: 600 !important;
+    font-family: var(--font-heading) !important;
+    font-size: 0.9rem !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 8px rgba(53, 46, 140, 0.01) !important;
+}
+
+button:hover, [role="button"]:hover, div[data-testid="stButton"] button:hover, div[data-testid="stSidebar"] button:hover {
+    background-color: rgba(53, 46, 140, 0.05) !important;
+    border-color: rgba(53, 46, 140, 0.2) !important;
+    color: var(--primary) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(53, 46, 140, 0.04) !important;
+}
+
+/* Style for Sidebar Navigation Buttons specifically (forces align left and full width) */
+div[data-testid="stSidebar"] button {
+    text-align: left !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    border-radius: 12px !important;
+    padding: 10px 16px !important;
+    margin-bottom: 4px !important;
+}
+
+/* Premium Primary Buttons (CTA/Actions) styled with the CleanMyMac Orange Gradient */
+button[kind="primary"] {
+    background: linear-gradient(135deg, #ff9f1c, #f59e0b) !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(255, 159, 28, 0.15) !important;
+}
+
+button[kind="primary"]:hover {
+    background: linear-gradient(135deg, #ffa834, #fbbf24) !important;
+    box-shadow: 0 6px 16px rgba(255, 159, 28, 0.25) !important;
+    color: #ffffff !important;
+}
+
+/* Absolute font contrast guarantee inside all button spans/labels */
+button p, button span, button div, [role="button"] p, [role="button"] span {
+    color: inherit !important;
+    font-weight: 600 !important;
+}
+
+/* Premium Dark Sub-Feature Cards */
+.sub-feature-card {
+    background: #1e1b4b !important;
+    border: 1px solid #352e8c !important;
+    border-radius: 12px !important;
+    padding: 15px !important;
+    margin-bottom: 12px !important;
+    box-shadow: 0 4px 12px rgba(30, 27, 75, 0.05) !important;
+    color: #ffffff !important;
+}
+
+.sub-feature-card h3, .sub-feature-card h4, .sub-feature-card h5, .sub-feature-card strong {
+    color: #ffffff !important;
+}
+
+.sub-feature-card span, .sub-feature-card p, .sub-feature-card div {
+    color: #a5b4fc !important;
+}
+
+.sub-feature-card b, .sub-feature-card .highlight {
+    color: #5ac8fa !important;
+}
+
+.sub-feature-card .success-val {
+    color: #10b981 !important;
+}
+

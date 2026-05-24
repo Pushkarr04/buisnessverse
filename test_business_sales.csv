@@ -1,0 +1,251 @@
+Order ID,Order Date,Customer Name,Customer Segment,Product Name,Product Category,Quantity Ordered,Sales Revenue,Geographic Region
+ORD-10001,2025-01-02,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,4,180.4,South
+ORD-10002,2025-05-12,Wayne Enterprises,Enterprise,Ergonomic Mesh Chair,Office Supplies,12,2178.07,West
+ORD-10003,2024-07-16,Wayne Enterprises,Enterprise,Quantum Monitor 4K,Electronics,3,641.73,East
+ORD-10004,2024-11-29,Dunder Mifflin,SMB,Ergonomic Mesh Chair,Office Supplies,2,694.11,North
+ORD-10005,2024-11-07,Dunder Mifflin,SMB,Gigabit Switch Hub,Hardware,2,123.21,East
+ORD-10006,2025-01-23,Stark Industries,Enterprise,SaaS Subscription Standard,Software,4,295.5,West
+ORD-10007,2024-08-09,Dunder Mifflin,SMB,Alpha Laptop 15,Electronics,5,901.82,North
+ORD-10008,2024-01-10,Hooli Inc,Mid-Market,SaaS Subscription Enterprise,Software,3,1454.5,North
+ORD-10009,2024-10-11,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,1,236.76,East
+ORD-10010,2025-05-25,Initech LLC,Mid-Market,Fiber Optic Cable Pack,Hardware,5,73.49,South
+ORD-10011,2024-03-08,Globex Corp,Enterprise,Alpha Laptop 15,Electronics,1,9018.56,West
+ORD-10012,2025-09-11,Pied Piper,SMB,Quantum Monitor 4K,Electronics,4,666.99,South
+ORD-10013,2024-03-24,Initech LLC,Mid-Market,Fiber Optic Cable Pack,Hardware,2,67.52,North
+ORD-10014,2025-07-17,Reynholm Industries,SMB,Alpha Laptop 15,Electronics,3,3434.46,East
+ORD-10015,2024-10-13,Globex Corp,Enterprise,SaaS Subscription Enterprise,Software,15,796.09,South
+ORD-10016,2025-06-20,Globex Corp,Enterprise,Gigabit Switch Hub,Hardware,13,1937.95,South
+ORD-10017,2025-10-30,Wayne Enterprises,Enterprise,Quantum Monitor 4K,Electronics,15,894.38,West
+ORD-10018,2024-02-15,Pied Piper,SMB,Fiber Optic Cable Pack,Hardware,3,48.41,West
+ORD-10019,2025-08-30,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,5,513.06,South
+ORD-10020,2025-11-26,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,3,178.38,North
+ORD-10021,2024-03-08,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,2,360.88,South
+ORD-10022,2025-01-13,Globex Corp,Enterprise,SaaS Subscription Enterprise,Software,1,2341.83,South
+ORD-10023,2025-11-09,Reynholm Industries,SMB,SaaS Subscription Enterprise,Software,5,519.74,East
+ORD-10024,2024-09-18,Wayne Enterprises,Enterprise,SaaS Subscription Standard,Software,4,672.72,West
+ORD-10025,2024-09-08,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,1,489.47,West
+ORD-10026,2024-10-02,Acme Corporation,Enterprise,Fiber Optic Cable Pack,Hardware,9,264.1,North
+ORD-10027,2024-02-29,Pied Piper,SMB,Fiber Optic Cable Pack,Hardware,1,98.87,East
+ORD-10028,2025-10-13,Dunder Mifflin,SMB,Wireless Clicker,Office Supplies,1,19.07,East
+ORD-10029,2025-10-01,Globex Corp,Enterprise,Quantum Monitor 4K,Electronics,13,2522.29,North
+ORD-10030,2025-12-31,Dunder Mifflin,SMB,Wireless Clicker,Office Supplies,4,17.79,South
+ORD-10031,2025-10-21,Umbrella Corp,Enterprise,SaaS Subscription Enterprise,Software,13,2326.14,South
+ORD-10032,2024-06-25,Initech LLC,Mid-Market,Ergonomic Mesh Chair,Office Supplies,5,348.56,North
+ORD-10033,2025-11-30,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,5,328.97,North
+ORD-10034,2024-05-11,Reynholm Industries,SMB,SaaS Subscription Enterprise,Software,5,1179.43,North
+ORD-10035,2025-04-04,Acme Corporation,Enterprise,Quantum Monitor 4K,Electronics,10,3349.07,North
+ORD-10036,2024-05-17,Stark Industries,Enterprise,SaaS Subscription Standard,Software,12,42.51,North
+ORD-10037,2024-10-22,Wayne Enterprises,Enterprise,Quantum Monitor 4K,Electronics,4,1006.38,West
+ORD-10038,2025-12-26,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,3,115.17,West
+ORD-10039,2024-09-06,Dunder Mifflin,SMB,Ergonomic Mesh Chair,Office Supplies,2,663.2,South
+ORD-10040,2025-05-13,Dunder Mifflin,SMB,Fiber Optic Cable Pack,Hardware,2,72.25,South
+ORD-10041,2024-08-17,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,5,2393.93,West
+ORD-10042,2025-08-29,Wayne Enterprises,Enterprise,Wireless Clicker,Office Supplies,14,210.75,East
+ORD-10043,2024-09-27,Pied Piper,SMB,Fiber Optic Cable Pack,Hardware,1,95.04,North
+ORD-10044,2025-01-15,Acme Corporation,Enterprise,Wireless Clicker,Office Supplies,8,278.62,West
+ORD-10045,2024-02-28,Hooli Inc,Mid-Market,Alpha Laptop 15,Electronics,2,906.97,West
+ORD-10046,2024-07-09,Globex Corp,Enterprise,Gigabit Switch Hub,Hardware,7,1480.59,West
+ORD-10047,2024-08-07,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,5,143.77,South
+ORD-10048,2025-11-10,Reynholm Industries,SMB,Wireless Clicker,Office Supplies,4,59.25,West
+ORD-10049,2025-06-27,Acme Corporation,Enterprise,Alpha Laptop 15,Electronics,2,11474.28,West
+ORD-10050,2025-10-02,Dunder Mifflin,SMB,SaaS Subscription Standard,Software,3,218.87,East
+ORD-10051,2024-05-19,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,13,192.21,West
+ORD-10052,2025-05-08,Pied Piper,SMB,Quantum Monitor 4K,Electronics,1,1503.53,West
+ORD-10053,2025-01-26,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,2,45.73,South
+ORD-10054,2024-06-26,Stark Industries,Enterprise,Gigabit Switch Hub,Hardware,15,1338.65,North
+ORD-10055,2024-09-18,Initech LLC,Mid-Market,Alpha Laptop 15,Electronics,2,4344.64,East
+ORD-10056,2025-07-30,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,1,330.98,South
+ORD-10057,2025-09-12,Globex Corp,Enterprise,Fiber Optic Cable Pack,Hardware,3,184.92,East
+ORD-10058,2024-07-09,Initech LLC,Mid-Market,Wireless Clicker,Office Supplies,2,73.06,North
+ORD-10059,2024-03-17,Hooli Inc,Mid-Market,Wireless Clicker,Office Supplies,5,52.59,North
+ORD-10060,2024-02-08,Hooli Inc,Mid-Market,Alpha Laptop 15,Electronics,2,2653.64,South
+ORD-10061,2025-10-15,Umbrella Corp,Enterprise,Gigabit Switch Hub,Hardware,14,466.96,East
+ORD-10062,2024-11-22,Stark Industries,Enterprise,SaaS Subscription Enterprise,Software,4,2676.79,East
+ORD-10063,2025-11-07,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,2,117.86,West
+ORD-10064,2024-08-04,Wayne Enterprises,Enterprise,Wireless Clicker,Office Supplies,8,158.13,South
+ORD-10065,2024-03-23,Globex Corp,Enterprise,Wireless Clicker,Office Supplies,7,285.49,West
+ORD-10066,2024-06-28,Wayne Enterprises,Enterprise,Alpha Laptop 15,Electronics,10,2775.6,West
+ORD-10067,2024-12-28,Pied Piper,SMB,Alpha Laptop 15,Electronics,5,953.04,South
+ORD-10068,2024-06-25,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,15,44.49,South
+ORD-10069,2024-08-24,Initech LLC,Mid-Market,Fiber Optic Cable Pack,Hardware,3,42.58,West
+ORD-10070,2025-03-27,Wayne Enterprises,Enterprise,Ergonomic Mesh Chair,Office Supplies,6,346.94,West
+ORD-10071,2025-12-13,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,11,1656.14,North
+ORD-10072,2025-08-08,Hooli Inc,Mid-Market,SaaS Subscription Enterprise,Software,3,256.76,West
+ORD-10073,2024-08-16,Wayne Enterprises,Enterprise,Gigabit Switch Hub,Hardware,5,1491.54,South
+ORD-10074,2025-06-11,Reynholm Industries,SMB,Wireless Clicker,Office Supplies,3,58.02,North
+ORD-10075,2025-12-09,Hooli Inc,Mid-Market,Wireless Clicker,Office Supplies,5,19.79,West
+ORD-10076,2024-10-16,Pied Piper,SMB,SaaS Subscription Enterprise,Software,3,1346.35,South
+ORD-10077,2025-06-14,Reynholm Industries,SMB,Gigabit Switch Hub,Hardware,2,519.8,North
+ORD-10078,2024-07-19,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,2,142.19,North
+ORD-10079,2024-11-11,Globex Corp,Enterprise,SaaS Subscription Standard,Software,9,213.84,North
+ORD-10080,2025-12-20,Umbrella Corp,Enterprise,Ergonomic Mesh Chair,Office Supplies,1,1454.97,West
+ORD-10081,2024-12-16,Dunder Mifflin,SMB,Quantum Monitor 4K,Electronics,1,1363.06,West
+ORD-10082,2025-03-01,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,1,563.0,East
+ORD-10083,2025-03-04,Globex Corp,Enterprise,Fiber Optic Cable Pack,Hardware,4,63.95,West
+ORD-10084,2024-03-28,Globex Corp,Enterprise,Wireless Clicker,Office Supplies,9,227.17,East
+ORD-10085,2025-04-19,Stark Industries,Enterprise,Ergonomic Mesh Chair,Office Supplies,2,2490.9,East
+ORD-10086,2024-03-29,Initech LLC,Mid-Market,SaaS Subscription Enterprise,Software,2,1437.34,East
+ORD-10087,2024-12-23,Initech LLC,Mid-Market,Alpha Laptop 15,Electronics,5,910.8,South
+ORD-10088,2024-02-15,Reynholm Industries,SMB,Gigabit Switch Hub,Hardware,5,226.05,West
+ORD-10089,2024-06-03,Stark Industries,Enterprise,Quantum Monitor 4K,Electronics,7,952.36,East
+ORD-10090,2025-06-10,Globex Corp,Enterprise,Quantum Monitor 4K,Electronics,1,2137.25,West
+ORD-10091,2025-06-22,Wayne Enterprises,Enterprise,Wireless Clicker,Office Supplies,10,165.22,North
+ORD-10092,2025-11-16,Globex Corp,Enterprise,Wireless Clicker,Office Supplies,8,59.44,South
+ORD-10093,2025-10-16,Reynholm Industries,SMB,Alpha Laptop 15,Electronics,5,869.43,South
+ORD-10094,2025-05-09,Umbrella Corp,Enterprise,SaaS Subscription Enterprise,Software,2,512.61,South
+ORD-10095,2025-07-24,Dunder Mifflin,SMB,Ergonomic Mesh Chair,Office Supplies,4,188.39,East
+ORD-10096,2024-11-21,Umbrella Corp,Enterprise,Quantum Monitor 4K,Electronics,5,900.5,West
+ORD-10097,2025-09-06,Wayne Enterprises,Enterprise,Wireless Clicker,Office Supplies,2,221.3,North
+ORD-10098,2024-03-15,Globex Corp,Enterprise,Quantum Monitor 4K,Electronics,15,1045.33,West
+ORD-10099,2025-10-03,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,13,547.29,South
+ORD-10100,2025-03-23,Dunder Mifflin,SMB,Quantum Monitor 4K,Electronics,3,338.29,East
+ORD-10101,2025-03-26,Hooli Inc,Mid-Market,Wireless Clicker,Office Supplies,5,95.81,South
+ORD-10102,2024-05-31,Pied Piper,SMB,SaaS Subscription Enterprise,Software,2,1092.92,East
+ORD-10103,2025-10-08,Reynholm Industries,SMB,Alpha Laptop 15,Electronics,2,1940.41,North
+ORD-10104,2025-05-06,Dunder Mifflin,SMB,Wireless Clicker,Office Supplies,3,98.32,East
+ORD-10105,2024-10-14,Dunder Mifflin,SMB,Quantum Monitor 4K,Electronics,3,932.35,South
+ORD-10106,2024-07-30,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,5,385.95,South
+ORD-10107,2024-04-15,Umbrella Corp,Enterprise,SaaS Subscription Enterprise,Software,7,3650.63,West
+ORD-10108,2024-09-14,Hooli Inc,Mid-Market,Wireless Clicker,Office Supplies,2,85.5,East
+ORD-10109,2025-06-15,Stark Industries,Enterprise,Ergonomic Mesh Chair,Office Supplies,12,337.26,South
+ORD-10110,2024-10-13,Acme Corporation,Enterprise,Fiber Optic Cable Pack,Hardware,3,266.42,West
+ORD-10111,2024-03-08,Reynholm Industries,SMB,SaaS Subscription Standard,Software,5,47.61,South
+ORD-10112,2025-05-23,Initech LLC,Mid-Market,Alpha Laptop 15,Electronics,1,1999.68,East
+ORD-10113,2025-12-05,Wayne Enterprises,Enterprise,SaaS Subscription Standard,Software,8,86.62,West
+ORD-10114,2024-07-19,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,3,608.86,West
+ORD-10115,2025-02-24,Initech LLC,Mid-Market,SaaS Subscription Enterprise,Software,4,265.12,East
+ORD-10116,2025-04-21,Reynholm Industries,SMB,Gigabit Switch Hub,Hardware,1,115.85,West
+ORD-10117,2025-12-15,Hooli Inc,Mid-Market,SaaS Subscription Enterprise,Software,5,1380.37,South
+ORD-10118,2025-12-27,Initech LLC,Mid-Market,SaaS Subscription Enterprise,Software,5,267.91,West
+ORD-10119,2024-11-09,Wayne Enterprises,Enterprise,Fiber Optic Cable Pack,Hardware,15,219.67,North
+ORD-10120,2024-08-26,Acme Corporation,Enterprise,Fiber Optic Cable Pack,Hardware,6,141.34,South
+ORD-10121,2024-10-01,Wayne Enterprises,Enterprise,Fiber Optic Cable Pack,Hardware,6,181.18,West
+ORD-10122,2025-01-10,Reynholm Industries,SMB,Alpha Laptop 15,Electronics,5,4532.03,South
+ORD-10123,2025-01-10,Wayne Enterprises,Enterprise,Gigabit Switch Hub,Hardware,3,1204.92,West
+ORD-10124,2025-05-10,Hooli Inc,Mid-Market,Fiber Optic Cable Pack,Hardware,5,119.63,West
+ORD-10125,2024-01-07,Globex Corp,Enterprise,Quantum Monitor 4K,Electronics,2,4538.41,West
+ORD-10126,2024-07-22,Hooli Inc,Mid-Market,Ergonomic Mesh Chair,Office Supplies,1,182.66,South
+ORD-10127,2025-10-08,Umbrella Corp,Enterprise,Alpha Laptop 15,Electronics,5,7102.49,East
+ORD-10128,2025-01-03,Globex Corp,Enterprise,Fiber Optic Cable Pack,Hardware,1,70.16,North
+ORD-10129,2025-10-14,Initech LLC,Mid-Market,Fiber Optic Cable Pack,Hardware,1,92.14,South
+ORD-10130,2025-09-17,Umbrella Corp,Enterprise,Alpha Laptop 15,Electronics,3,1910.76,East
+ORD-10131,2025-03-05,Wayne Enterprises,Enterprise,Ergonomic Mesh Chair,Office Supplies,11,665.89,West
+ORD-10132,2025-05-23,Pied Piper,SMB,Ergonomic Mesh Chair,Office Supplies,5,350.27,East
+ORD-10133,2025-07-16,Wayne Enterprises,Enterprise,SaaS Subscription Enterprise,Software,14,849.13,East
+ORD-10134,2025-10-06,Wayne Enterprises,Enterprise,SaaS Subscription Enterprise,Software,8,2392.59,South
+ORD-10135,2025-03-03,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,1,165.21,West
+ORD-10136,2025-01-11,Acme Corporation,Enterprise,Quantum Monitor 4K,Electronics,14,4379.29,West
+ORD-10137,2024-08-16,Stark Industries,Enterprise,SaaS Subscription Enterprise,Software,5,266.99,North
+ORD-10138,2024-08-05,Umbrella Corp,Enterprise,SaaS Subscription Enterprise,Software,13,4419.84,West
+ORD-10139,2025-08-30,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,1,527.32,West
+ORD-10140,2024-06-13,Pied Piper,SMB,Ergonomic Mesh Chair,Office Supplies,2,325.71,North
+ORD-10141,2025-01-05,Hooli Inc,Mid-Market,SaaS Subscription Enterprise,Software,1,260.6,South
+ORD-10142,2024-07-10,Reynholm Industries,SMB,Ergonomic Mesh Chair,Office Supplies,4,647.17,North
+ORD-10143,2024-10-17,Acme Corporation,Enterprise,Fiber Optic Cable Pack,Hardware,6,271.96,West
+ORD-10144,2025-04-11,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,15,295.68,North
+ORD-10145,2024-06-26,Pied Piper,SMB,Quantum Monitor 4K,Electronics,4,1037.83,South
+ORD-10146,2025-04-01,Globex Corp,Enterprise,SaaS Subscription Enterprise,Software,7,1451.91,North
+ORD-10147,2024-04-04,Acme Corporation,Enterprise,Alpha Laptop 15,Electronics,12,11591.27,West
+ORD-10148,2024-08-20,Globex Corp,Enterprise,Gigabit Switch Hub,Hardware,2,1520.16,East
+ORD-10149,2025-09-14,Stark Industries,Enterprise,Ergonomic Mesh Chair,Office Supplies,13,329.0,East
+ORD-10150,2024-03-21,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,2,125.89,North
+ORD-10151,2025-10-25,Stark Industries,Enterprise,Wireless Clicker,Office Supplies,1,170.01,South
+ORD-10152,2024-12-28,Wayne Enterprises,Enterprise,SaaS Subscription Standard,Software,15,509.28,South
+ORD-10153,2025-02-17,Pied Piper,SMB,Quantum Monitor 4K,Electronics,4,316.04,South
+ORD-10154,2024-04-01,Umbrella Corp,Enterprise,Wireless Clicker,Office Supplies,9,220.15,West
+ORD-10155,2024-08-17,Wayne Enterprises,Enterprise,Quantum Monitor 4K,Electronics,11,2323.73,North
+ORD-10156,2024-12-23,Hooli Inc,Mid-Market,Fiber Optic Cable Pack,Hardware,4,74.03,West
+ORD-10157,2025-10-04,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,5,168.41,North
+ORD-10158,2024-09-02,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,1,348.66,South
+ORD-10159,2025-01-24,Umbrella Corp,Enterprise,SaaS Subscription Enterprise,Software,9,3369.47,East
+ORD-10160,2025-11-13,Hooli Inc,Mid-Market,Alpha Laptop 15,Electronics,5,3797.49,South
+ORD-10161,2024-01-19,Hooli Inc,Mid-Market,SaaS Subscription Enterprise,Software,3,825.0,South
+ORD-10162,2025-02-04,Hooli Inc,Mid-Market,Quantum Monitor 4K,Electronics,5,1251.95,East
+ORD-10163,2024-01-04,Dunder Mifflin,SMB,Wireless Clicker,Office Supplies,4,19.6,North
+ORD-10164,2025-01-07,Acme Corporation,Enterprise,Alpha Laptop 15,Electronics,6,3622.24,North
+ORD-10165,2025-06-21,Initech LLC,Mid-Market,Wireless Clicker,Office Supplies,1,75.0,West
+ORD-10166,2025-12-06,Globex Corp,Enterprise,Ergonomic Mesh Chair,Office Supplies,1,854.96,North
+ORD-10167,2025-06-15,Umbrella Corp,Enterprise,Ergonomic Mesh Chair,Office Supplies,5,1818.86,West
+ORD-10168,2024-05-21,Acme Corporation,Enterprise,Quantum Monitor 4K,Electronics,5,5091.14,East
+ORD-10169,2025-04-24,Acme Corporation,Enterprise,Gigabit Switch Hub,Hardware,14,379.3,East
+ORD-10170,2025-08-31,Reynholm Industries,SMB,SaaS Subscription Standard,Software,4,226.99,East
+ORD-10171,2024-04-06,Acme Corporation,Enterprise,Wireless Clicker,Office Supplies,4,155.42,East
+ORD-10172,2025-03-17,Reynholm Industries,SMB,Fiber Optic Cable Pack,Hardware,5,71.95,East
+ORD-10173,2025-11-22,Dunder Mifflin,SMB,SaaS Subscription Standard,Software,2,221.94,South
+ORD-10174,2024-02-08,Dunder Mifflin,SMB,Gigabit Switch Hub,Hardware,4,255.45,East
+ORD-10175,2025-01-11,Globex Corp,Enterprise,Gigabit Switch Hub,Hardware,15,223.98,West
+ORD-10176,2025-07-29,Acme Corporation,Enterprise,Wireless Clicker,Office Supplies,14,95.41,West
+ORD-10177,2024-10-03,Globex Corp,Enterprise,Alpha Laptop 15,Electronics,3,1757.08,South
+ORD-10178,2025-10-15,Umbrella Corp,Enterprise,Quantum Monitor 4K,Electronics,12,3234.41,North
+ORD-10179,2025-01-04,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,8,2497.25,East
+ORD-10180,2025-06-30,Stark Industries,Enterprise,Quantum Monitor 4K,Electronics,2,2496.59,East
+ORD-10181,2024-04-21,Initech LLC,Mid-Market,Wireless Clicker,Office Supplies,4,17.14,West
+ORD-10182,2025-07-21,Umbrella Corp,Enterprise,Wireless Clicker,Office Supplies,10,17.62,West
+ORD-10183,2024-09-06,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,15,402.32,North
+ORD-10184,2024-04-04,Reynholm Industries,SMB,Fiber Optic Cable Pack,Hardware,3,22.77,East
+ORD-10185,2025-06-11,Initech LLC,Mid-Market,Wireless Clicker,Office Supplies,5,74.55,East
+ORD-10186,2025-11-14,Dunder Mifflin,SMB,SaaS Subscription Enterprise,Software,3,1271.39,North
+ORD-10187,2025-03-16,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,14,2887.54,East
+ORD-10188,2024-09-25,Umbrella Corp,Enterprise,Wireless Clicker,Office Supplies,8,235.2,North
+ORD-10189,2025-04-10,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,7,3027.37,South
+ORD-10190,2024-04-04,Globex Corp,Enterprise,SaaS Subscription Standard,Software,7,721.04,North
+ORD-10191,2024-02-06,Globex Corp,Enterprise,SaaS Subscription Enterprise,Software,9,848.3,West
+ORD-10192,2024-01-27,Stark Industries,Enterprise,Quantum Monitor 4K,Electronics,9,3433.82,South
+ORD-10193,2025-05-10,Wayne Enterprises,Enterprise,Ergonomic Mesh Chair,Office Supplies,14,2519.89,East
+ORD-10194,2024-09-24,Pied Piper,SMB,Alpha Laptop 15,Electronics,2,1913.9,North
+ORD-10195,2024-12-05,Reynholm Industries,SMB,Alpha Laptop 15,Electronics,2,2592.42,South
+ORD-10196,2025-09-20,Wayne Enterprises,Enterprise,SaaS Subscription Enterprise,Software,9,289.33,South
+ORD-10197,2025-09-27,Stark Industries,Enterprise,Alpha Laptop 15,Electronics,8,11761.99,East
+ORD-10198,2025-11-21,Stark Industries,Enterprise,Alpha Laptop 15,Electronics,4,13556.24,South
+ORD-10199,2025-04-21,Wayne Enterprises,Enterprise,Quantum Monitor 4K,Electronics,6,1249.05,East
+ORD-10200,2025-05-01,Stark Industries,Enterprise,Fiber Optic Cable Pack,Hardware,7,288.59,North
+ORD-10201,2024-07-04,Reynholm Industries,SMB,Fiber Optic Cable Pack,Hardware,4,24.97,East
+ORD-10202,2025-09-23,Dunder Mifflin,SMB,Quantum Monitor 4K,Electronics,3,691.43,West
+ORD-10203,2024-06-13,Umbrella Corp,Enterprise,SaaS Subscription Standard,Software,2,44.45,East
+ORD-10204,2024-10-19,Stark Industries,Enterprise,Quantum Monitor 4K,Electronics,7,4538.37,North
+ORD-10205,2025-12-06,Hooli Inc,Mid-Market,Ergonomic Mesh Chair,Office Supplies,2,820.68,West
+ORD-10206,2024-06-29,Hooli Inc,Mid-Market,SaaS Subscription Standard,Software,4,220.26,South
+ORD-10207,2024-11-05,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,4,437.85,North
+ORD-10208,2025-08-13,Hooli Inc,Mid-Market,Wireless Clicker,Office Supplies,3,56.2,East
+ORD-10209,2024-04-15,Stark Industries,Enterprise,Alpha Laptop 15,Electronics,14,1977.74,South
+ORD-10210,2025-10-20,Pied Piper,SMB,Wireless Clicker,Office Supplies,1,74.23,East
+ORD-10211,2024-03-22,Globex Corp,Enterprise,Ergonomic Mesh Chair,Office Supplies,7,2333.23,North
+ORD-10212,2025-01-26,Pied Piper,SMB,Ergonomic Mesh Chair,Office Supplies,2,181.16,East
+ORD-10213,2025-12-04,Reynholm Industries,SMB,Quantum Monitor 4K,Electronics,5,1199.88,West
+ORD-10214,2024-08-10,Stark Industries,Enterprise,Alpha Laptop 15,Electronics,8,7026.27,East
+ORD-10215,2024-10-25,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,1,469.23,West
+ORD-10216,2025-07-31,Initech LLC,Mid-Market,Fiber Optic Cable Pack,Hardware,5,22.92,South
+ORD-10217,2025-08-26,Wayne Enterprises,Enterprise,SaaS Subscription Standard,Software,2,279.86,North
+ORD-10218,2025-12-09,Pied Piper,SMB,Gigabit Switch Hub,Hardware,5,224.81,South
+ORD-10219,2025-10-04,Stark Industries,Enterprise,SaaS Subscription Standard,Software,1,134.11,West
+ORD-10220,2025-03-23,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,3,122.87,West
+ORD-10221,2025-02-19,Globex Corp,Enterprise,SaaS Subscription Standard,Software,12,580.83,West
+ORD-10222,2025-10-18,Acme Corporation,Enterprise,Fiber Optic Cable Pack,Hardware,5,365.04,West
+ORD-10223,2024-08-06,Reynholm Industries,SMB,Fiber Optic Cable Pack,Hardware,2,49.62,South
+ORD-10224,2025-10-01,Globex Corp,Enterprise,Quantum Monitor 4K,Electronics,12,606.71,East
+ORD-10225,2025-02-18,Reynholm Industries,SMB,Gigabit Switch Hub,Hardware,2,622.9,North
+ORD-10226,2025-04-10,Initech LLC,Mid-Market,SaaS Subscription Standard,Software,3,217.06,North
+ORD-10227,2024-09-04,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,4,341.93,South
+ORD-10228,2024-10-23,Stark Industries,Enterprise,Gigabit Switch Hub,Hardware,2,114.98,West
+ORD-10229,2025-07-07,Hooli Inc,Mid-Market,Ergonomic Mesh Chair,Office Supplies,1,860.13,South
+ORD-10230,2024-03-11,Wayne Enterprises,Enterprise,SaaS Subscription Enterprise,Software,4,2436.17,West
+ORD-10231,2025-10-02,Umbrella Corp,Enterprise,Alpha Laptop 15,Electronics,1,9878.57,East
+ORD-10232,2024-10-23,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,7,142.19,South
+ORD-10233,2025-03-24,Umbrella Corp,Enterprise,Fiber Optic Cable Pack,Hardware,1,99.84,East
+ORD-10234,2025-03-17,Hooli Inc,Mid-Market,Quantum Monitor 4K,Electronics,2,1282.31,South
+ORD-10235,2025-02-12,Globex Corp,Enterprise,Gigabit Switch Hub,Hardware,14,574.31,East
+ORD-10236,2024-05-31,Acme Corporation,Enterprise,Ergonomic Mesh Chair,Office Supplies,2,1302.66,South
+ORD-10237,2025-04-22,Pied Piper,SMB,Fiber Optic Cable Pack,Hardware,3,22.84,West
+ORD-10238,2025-06-15,Acme Corporation,Enterprise,SaaS Subscription Enterprise,Software,8,2391.65,East
+ORD-10239,2025-03-16,Initech LLC,Mid-Market,Gigabit Switch Hub,Hardware,5,252.58,South
+ORD-10240,2024-06-10,Acme Corporation,Enterprise,Alpha Laptop 15,Electronics,9,1931.87,West
+ORD-10241,2024-05-18,Globex Corp,Enterprise,Fiber Optic Cable Pack,Hardware,5,344.58,North
+ORD-10242,2025-05-01,Umbrella Corp,Enterprise,Wireless Clicker,Office Supplies,15,128.17,South
+ORD-10243,2025-06-29,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,2,622.65,West
+ORD-10244,2024-12-31,Stark Industries,Enterprise,Fiber Optic Cable Pack,Hardware,14,274.0,North
+ORD-10245,2024-06-28,Umbrella Corp,Enterprise,Alpha Laptop 15,Electronics,11,3702.35,South
+ORD-10246,2024-03-21,Hooli Inc,Mid-Market,Gigabit Switch Hub,Hardware,1,127.12,West
+ORD-10247,2025-07-30,Hooli Inc,Mid-Market,Fiber Optic Cable Pack,Hardware,2,21.74,North
+ORD-10248,2025-03-14,Reynholm Industries,SMB,Gigabit Switch Hub,Hardware,4,121.1,West
+ORD-10249,2024-05-16,Acme Corporation,Enterprise,SaaS Subscription Standard,Software,13,134.1,West
+ORD-10250,2025-01-19,Wayne Enterprises,Enterprise,SaaS Subscription Enterprise,Software,1,821.36,West
